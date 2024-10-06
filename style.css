@@ -1,0 +1,83 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* common */
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("https://blog.newswire.co.kr/wp-content/uploads/2021/11/%EC%98%A4%EC%A7%95%EC%96%B4%EA%B2%8C%EC%9E%84-%EA%B0%80%EB%A1%9C-_3.jpg") center/cover no-repeat;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 18px rgba(255, 255, 255, 0.7);
+}
+main .container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+main .container .block {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+main .container .block h3 {
+  font-size: 22px;
+}
+main .container .block p {
+  font-size: 28px;
+}
+main .buttons {
+  display: flex;
+  gap: 20px;
+}
+main .buttons button {
+  width: 70px;
+  height: 40px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+}
+main .buttons button.red {
+  background: rgb(220, 20, 60);
+  transition: background 0.3s;
+}
+main .buttons button.red:hover {
+  background: rgba(220, 20, 60, 0.7);
+}
+main .buttons button.blue {
+  background: rgb(30, 144, 255);
+  transition: background 0.3s;
+}
+main .buttons button.blue:hover {
+  background: rgba(30, 144, 255, 0.7);
+}
+main .buttons button.green {
+  background: rgb(154, 205, 50);
+  transition: background 0.3s;
+}
+main .buttons button.green:hover {
+  background: rgba(154, 205, 50, 0.7);
+}
+main .result {
+  font-size: 30px;
+  font-weight: bold;
+}
