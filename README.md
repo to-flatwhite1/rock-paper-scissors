@@ -38,4 +38,5 @@ JavaScript
 유지보수성: show, game, play와 같은 함수로 로직을 분리하여 코드의 가독성과 재사용성을 높였습니다.
 랜덤성 구현: Math.random()을 활용하여 컴퓨터의 선택을 무작위로 설정했습니다.
 DOM 조작: querySelector와 innerText를 활용하여 실시간으로 화면을 업데이트했습니다.
+
 ![game](https://github.com/user-attachments/assets/6a84358d-1524-41b7-a67e-9b1074ba080b)
